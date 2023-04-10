@@ -24,7 +24,23 @@ app.get('/', (req, res) => {
     res.render('');
 });
 
+app.get('/strangeRoute', (req, res) =>{
+    res.render('');
+});
+
+//cambios feature-edwin
+app.get('/strangeRoute', (req, res) =>{
+    res.render('');
+});
+//cambios feature-edwin
+
 //app.post('/userSingup', rutas);
+
+
+//RUTA DE WILMER
+app.get('/wilmerRoute', (req, res) =>{
+    res.render('');
+});
 
 
 const server = app.listen(port, () => {
