@@ -24,6 +24,10 @@ app.get('/', (req, res) => {
     res.render('');
 });
 
+app.get('/strangeRoute', (req, res) =>{
+    res.render('');
+});
+
 //app.post('/userSingup', rutas);
 
 
