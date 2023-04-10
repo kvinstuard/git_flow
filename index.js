@@ -37,6 +37,12 @@ app.get('/strangeRoute', (req, res) =>{
 //app.post('/userSingup', rutas);
 
 
+//RUTA DE WILMER
+app.get('/wilmerRoute', (req, res) =>{
+    res.render('');
+});
+
+
 const server = app.listen(port, () => {
     let host = server.address().address;
     let port = server.address().port;
