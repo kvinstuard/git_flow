@@ -28,6 +28,12 @@ app.get('/strangeRoute', (req, res) =>{
     res.render('');
 });
 
+//cambios feature-edwin
+app.get('/strangeRoute', (req, res) =>{
+    res.render('');
+});
+//cambios feature-edwin
+
 //app.post('/userSingup', rutas);
 
 
